@@ -9,6 +9,46 @@ This repository contains the assignments for the Enterprise Software Design cour
 
 -   **Assignment 1**: Brief description or topic covered in Assignment 1
 
+**Part 1. Reading Assignment** 
+https://web.archive.org/web/20190406064813/http://pdf.coreservlets.com/HTTP-Request-Headers.pdf  
+https://web.archive.org/web/20190406090817/http://pdf.coreservlets.com/HTTP-Status-Codes.pdf  
+If the site is down, then here is the link to the whole book: https://learning.oreilly.com/library/view/-/0130092290/?ar=  
+To login: select, Northeastern University not listed. Then enter your email as "username@northeastern.edu"  
+
+**Part 2. Programming Assignment**  
+Write a servlet, to be created and deployed manually without using any IDE to display request headers using:  
+Enumeration getHeaderNames()  
+Enumeration getHeaders(String name)  
+https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletRequest.html  
+
+**Part 3.1. Programming Assignment**  
+Create a Servlet to handle the form submission. The design and layout do not need to be the same as the form below. As long as you  
+provide the same fields, that is fine. You may ignore the layout, but if you know Bootstrap and CSS, you may use it). 
+
+**PART 3.2. Programming Assignment**  
+Redo 3.1 and use getParameterMap()  
+https://docs.oracle.com/javaee/7/api/javax/servlet/ServletRequest.html#getParameterMap--  
+
+**PART 3.3. Programming Assignment** 
+Redo 3.1 and use getParameterNames()  
+https://docs.oracle.com/javaee/7/api/javax/servlet/ServletRequest.html#getParameterNames--  
+
+**PART 4. Programming Assignment**  
+Create an HTML form to capture the information as shown in the following PDF page. PDF forms are designed to print and fill out by  
+hand, so the layout is optimized to fit all the fields in a single page, but there is no such a requirement for the layout for the web forms.  
+So, the design and layout of the form may be very different from the PDF form. Design the web form in any way you like, using CSS  
+libraries if you like, to capture the same information. Also, in the layout, you may see underlined fields or table cells for users to write  
+information, but you cannot capture user input from an HTML page just by underlining or creating a table cell. A form element is needed for  
+users to enter information.  
+https://assets.hrm.northeastern.edu/pdfs/tuition_waiver/TuitionWaiverForm.pdf  
+
+**PART 5. Programming Assignment**  
+Create a servlet to use and display all the getX() methods from the HttpServletRequest class:  
+https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletRequest.html  
+and all the inherited getX() methods from the super interface ServletRequest:  
+https://docs.oracle.com/javaee/7/api/javax/servlet/ServletRequest.html  
+If a getX() method returns something that cannot be printed, just skip that method.
+
 -   **Assignment 2**: 
 
 **Part 1. Reading Assignment (Chapter 48)**  
@@ -44,6 +84,8 @@ You will be using a session object to store and retrieve selected items from a s
 cart applications typically allow users to select items from a catalog and place them in a virtual shopping cart. When the user selects some items and  presses the Add to Cart" button, the servlet will add the selected items to the session object and then retrieve all of the items currently in the session object and then display them in the browser. Removing an item from the shopping cart will be from the same servlet.
 
 Use URL-rewriting or hidden fields as necessary to use the same servlet for adding and removing items. Add Programmatic Security [https://web.archive.org/web/20200206032018/http://pdf.moreservlets.com/More-Servlets-and-JSP-Chapter-08.pdf]
+
+
 
 -   **Assignment 3**: 
 
