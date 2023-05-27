@@ -1,0 +1,22 @@
+<web-app>
+    <servlet>
+        <servlet-name>part3i</servlet-name>
+        <servlet-class>Part3iHW1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>part3i</servlet-name>
+        <url-pattern>/formHW1.html</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+    <servlet-name>answers</servlet-name>
+    <servlet-class>Answers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>answers</servlet-name>
+    <url-pattern>/answers</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+
+ 

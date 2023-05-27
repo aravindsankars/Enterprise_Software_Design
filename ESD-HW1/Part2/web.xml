@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>part2</servlet-name>
+        <servlet-class>Part2HW1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>part2</servlet-name>
+        <url-pattern>/part2.htm</url-pattern>
+    </servlet-mapping>
+</web-app>
