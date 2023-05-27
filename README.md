@@ -7,7 +7,7 @@ This repository contains the assignments for the Enterprise Software Design cour
 
 ## Assignments
 
--   **Assignment 1**: Brief description or topic covered in Assignment 1
+-   **Assignment 1**:
 
 **Part 1. Reading Assignment** 
 https://web.archive.org/web/20190406064813/http://pdf.coreservlets.com/HTTP-Request-Headers.pdf  
@@ -48,6 +48,8 @@ https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletRequest.html
 and all the inherited getX() methods from the super interface ServletRequest:  
 https://docs.oracle.com/javaee/7/api/javax/servlet/ServletRequest.html  
 If a getX() method returns something that cannot be printed, just skip that method.
+
+
 
 -   **Assignment 2**: 
 
