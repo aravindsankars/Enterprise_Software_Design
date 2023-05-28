@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<body>
+  <head>
+    <title>Answers</title>
+  </head>
+  <form action="answers" method="post">
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email">
+    <br>
+    <br>
+    
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <br>
+    <br>
+    
+    <label for="password-confirmation">Confirm Password:</label>
+    <input type="password" name="password-confirmation" id="password-confirmation">
+    <br>
+    <br>
+
+    <label for="picture">Picture:</label>
+    <input type="file" name="picture" id="picture">
+    <br>
+    <br>
+
+    <div>
+      <label for="gender">Gender:</label>
+    
+      <input type="radio" name="gender" value="Male">
+      <label for="male">Male</label>
+      
+      <input type="radio" name="gender" value="Female">
+      <label for="female">Female</label>
+    </div>
+    <br>
+
+    <div>
+      <label for="country">Select Country:</label>
+      
+      <select id="country" name="country">
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+        <option value="Pakistan">Pakistan</option>
+      </select>
+    </div>
+    <br>
+
+    <div>
+      <label for="hobby">Hobby:</label>
+
+      <input type="checkbox" name="hobby" id="Cricket" value="Cricket">
+      <label for="Cricket">Cricket</label>
+      
+      <input type="checkbox" name="hobby" id="Football" value="Football">
+      <label for="Football">Football</label>
+    </div>
+    <br>
+    
+    <label for="address">Address:</label><br>
+    <textarea name="address" id="address" rows="5"></textarea>
+    <br>
+    <br>
+    
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
